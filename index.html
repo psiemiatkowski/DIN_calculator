@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pl-PL" class="no-js">
+
+<head>
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Favicon-->
+	<link rel="shortcut icon" href="img/fav.png">
+	<!-- Author Meta -->
+	<meta name="author" content="colorlib">
+	<!-- Meta Description -->
+	<meta name="description" content="">
+	<!-- Meta Keyword -->
+	<meta name="keywords" content="">
+	<!-- meta character set -->
+	<meta charset="UTF-8">
+	<!-- Site Title -->
+	<title>Kalkulator DIN - Ustal siłę wypięcia wiązań narciarskich - Ski binding DIN calculator</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700" rel="stylesheet">
+	<!--
+			CSS
+			============================================= -->
+	<link rel="stylesheet" href="css/linearicons.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/nice-select.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/jquery-ui.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+</head>
+
+<body>
+	<!-- start header Area -->
+	<header id="header">
+		<div class="header-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-sm-6 col-8 header-top-left no-padding">
+						<ul>
+							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fab fa-snapchat"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-lg-6 col-sm-6 col-4 header-top-right no-padding">
+						<a href="#">
+							<span class="text"></span>
+						</a>
+						<!-- <a class="book-now" href="#">Book Now</a> -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container main-menu">
+			<div class="row align-items-center justify-content-between d-flex">
+				<div id="logo">
+					<!-- <a href="index.html"><img src="img/logo.png" alt="" title="" /></a> -->
+				</div>
+				<nav id="nav-menu-container">
+					<ul class="nav-menu">
+						<li><a class="active" href="index.html">Home</a></li>
+						<li><a href="about.html">O kalkulatorze</a></li>
+						<li><a href="informations.html">Informacje</a></li>
+						<li><a href="blog.html">Blog</a></li>
+							<!-- <ul>
+								<li><a href="blog-home.html">Blog Home</a></li>
+								<li><a href="blog-single.html">Blog Single</a></li>
+							</ul> -->
+						<!-- </li> -->
+						<!-- <li class="menu-has-children"><a href="">Pages</a> -->
+							<!-- <ul>
+								<li><a href="schedule.html">Schedule</a></li>
+								<li><a href="courses.html">Courses</a></li>
+								<li><a href="elements.html">Elements</a></li>
+							</ul> -->
+						<!-- </li> -->
+						<li><a href="contact.html">Kontakt</a></li>
+					</ul>
+				</nav><!-- #nav-menu-container -->
+			</div>
+		</div>
+	</header>
+	<!-- end header Area -->
+
+	<!-- start banner Area -->
+	<section class="banner-area relative" id="home">
+		<div class="overlay overlay-bg"></div>
+		<div class="container-fluid">
+			<div class="row fullscreen d-flex align-items-center justify-content-between">
+				<div class="col-lg-6 col-md-6 banner-img">
+					<img class="img-fluid" src="img/banner-img.png" alt="">
+				</div>
+				<div class="banner-content col-lg-6 col-md-6">
+					<h1 class="text-uppercase">
+						<span>Oblicz</span> siłę <br> wypięcia wiązań <br> narciarskich
+					</h1>
+					<form method="POST" action="https://tranquil-scrubland-93040.herokuapp.com/" id="skierForm">
+					<div class="col-lg-8">
+							<div class="input-group-icon mt-30">
+								<div class="icon"><i class="fas fa-weight"></i></div>
+								<div class="form-select" id="default-select3">
+									<select name="weightRange">
+										<option value="Waga">Waga</option>
+										<option value="FROM 10 TO 13">Od 10 do 13 kg</option>
+										<option value="FROM 14 TO 17">Od 14 do 17 kg</option>
+										<option value="FROM 18 TO 21">Od 18 do 21 kg</option>
+										<option value="FROM 22 TO 25">Od 22 do 25 kg</option>
+										<option value="FROM 26 TO 30">Od 26 do 30 kg</option>
+										<option value="FROM 31 TO 35">Od 31 do 35 kg</option>																
+										<option value="FROM 36 TO 41">Od 36 do 41 kg</option>
+										<option value="FROM 42 TO 48">Od 42 do 48 kg</option>		
+										<option value="FROM 49 TO 57">Od 49 do 57 kg</option>
+										<option value="FROM 58 TO 66">Od 58 do 66 kg</option>
+										<option value="FROM 67 TO 78">Od 67 do 78 kg</option>																												
+										<option value="FROM 79 TO 94">Od 79 do 94 kg</option>
+										<option value="ABOVE 94">Powyżej 94 kg</option>
+									</select>
+								</div>
+							</div>
+							<div class="input-group-icon mt-10">
+								<div class="icon"><i class="fas fa-walking"></i></div>
+								<div class="form-select" id="default-select4">
+									<select name="heightRange">
+										<option value="Wzrost">Wzrost</option>
+										<option value="UP TO 148">Poniżej 149 cm</option>
+										<option value="FROM 149 TO 157">Od 149 do 157 cm</option>
+										<option value="FROM 158 TO 166">Od 158 do 166 cm</option>
+										<option value="FROM 167 TO 178">Od 167 do 178 cm</option>
+										<option value="FROM 179 TO 194">Od 179 do 194 cm</option>
+										<option value="ABOVE 194">Powyżej 194 cm</option>																				
+									</select>
+								</div>
+							</div>
+							<div class="input-group-icon mt-10">
+								<div class="icon"><i class="fas fa-shoe-prints"></i></div>
+								<div class="form-select" id="default-select5">
+									<select name="shoeSizeRange">
+										<option value="Rozmiar">Rozmiar skorupy buta</option>
+										<option value="UP TO 230">Poniżej 231 mm</option>
+										<option value="FROM 231 TO 250">Od 231 do 250 mm</option>
+										<option value="FROM 251 TO 270">Od 251 do 270 mm</option>
+										<option value="FROM 271 TO 290">Od 271 do 290 mm</option>
+										<option value="FROM 291 TO 310">Od 291 do 310 mm</option>
+										<option value="FROM 311 TO 330">Od 311 do 330 mm</option>	
+										<option value="FROM 331 TO 350">Od 331 do 350 mm</option>
+										<option value="ABOVE 350">Powyżej 350 mm</option>																			
+									</select>
+								</div>
+							</div>
+							<div class="input-group-icon mt-10">
+								<div class="icon"><i class="fas fa-calendar-alt"></i></div>
+								<div class="form-select" id="default-select2">
+									<select name="ageRange">
+										<option value="Wiek">Wiek</option>
+										<option value="YOUNGER THAN 10">Poniżej 10 lat</option>
+										<option value="BETWEEN 11 AND 50">Od 10 do 50 lat</option>
+										<option value="OLDER THAN 50">Powyżej 50 lat</option>
+									</select>
+								</div>
+							</div>																						
+							<div class="input-group-icon mt-10">
+								<div class="icon"><i class="fas fa-skiing"></i></div>
+								<div class="form-select" id="default-select">
+									<select name="skillLevel">
+										<option value="Skill level">Poziom umiejętności</option>
+										<option value="BEGINNER">Początkujący</option>
+										<option value="INTERMEDIATE">Średniozaawansowany</option>
+										<option value="ADVANCED">Zaawansowany</option>
+									</select>
+								</div>
+							</div>
+						</div>
+					<input class="primary-btn mt-40 ml-50" type="submit" onclick="location.href='#DINresult';" value="OBLICZ WARTOŚĆ DIN">
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End banner Area -->
+
+	<!-- Start Result Area -->
+	<section class="result-area section-gap" id="DINresult">
+		<div class="container">
+			<div class="row d-flex justify-content-center">
+				<div class="col-lg-12">
+					<div class="section-title-wrap text-center"><br><br>
+						<h1>
+							Siła wypięcia dla wybranych parametrów
+						</h1>
+						<h1 id="postResult"></h1>
+						<a class="primary-btn mt-20 ml-center" href="index.html">OBLICZ PONOWNIE</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="row justify-content-between align-items-center">
+				<!-- <div class="col-lg-6 about-right"> -->
+					<div class="row">
+						<!-- <div class="col-lg-12"> -->
+							<div class="single-about">
+								<!-- <h4>WAŻNE!</h4> -->
+								<p class="text-justify">
+									<span style="color:red">PAMIĘTAJ:</span> Kalkulator służy jedynie do celów informacyjnych. Prawidłowe ustawienie siły wypięcia nart jest niezbędne dla Twojego bezpieczeństwa. Dokonuj regulowania wiązań narciarskich wyłącznie w wyspecjalizowanych serwisach. Wyliczone wartości mogą się różnić w zależności od stylu jazdy narciarza oraz w zależności od producenta sprzętu.
+									Obliczenia oparte są na normie ISO 11088 - Montaż, regulacja i kontrola układu: narta zjazdowa-wiązanie-but (N-W-B).
+								</p>
+								<img class="img-fluid mx-auto d-block" src="img/about-img.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Result Area -->
+
+	<!-- start footer Area -->
+	<footer class="footer-area section-gap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4  col-md-6 col-sm-6">
+					<div class="single-footer-widget">
+						<h4>Wsparcie</h4>
+						<p class="text-justify">
+							Zostań bohaterem i pomóż w sfinansowaniu posiłków w szkołach i placówkach środowiskowych. Kliknij proszę na brzuszek pajacyka <a href="https://pajacyk.pl" target="_blank">Pajacyk.pl</a>
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-3  col-md-6 col-sm-6">
+					<div class="single-footer-widget">
+						<h4>Kontakt z nami</h4>
+						<p>
+							90-319 Łódź ul. Piotrkowska 317
+						</p>
+						<p class="number">
+							+48 123 456 789
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-5  col-md-6 col-sm-6">
+					<div class="single-footer-widget">
+						<h4>Newsletter</h4>
+						<p>Aby otrzymywać najnowsze informacje zapisz się do newslettera.</p>
+						<div class="d-flex flex-row" id="mc_embed_signup">
+
+							<form class="navbar-form" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+							 method="get">
+								<div class="input-group add-on align-items-center d-flex">
+									<input class="form-control" name="email" placeholder="Twój adres Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Twój adres Email'"
+									 required="" type="email">
+									<div style="position: absolute; left: -5000px;">
+										<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+									</div>
+									<div class="input-group-btn">
+										<button class="genric-btn"><span class="lnr lnr-arrow-right"></span></button>
+									</div>
+								</div>
+								<div class="info mt-20"></div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom row align-items-center">
+				<p class="footer-text m-0 col-lg-6 col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="far fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+				<div class="col-lg-6 col-sm-12 footer-social">
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-snapchat"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End footer Area -->
+
+	<script src="js/vendor/jquery-2.2.4.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	 crossorigin="anonymous"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+	<script src="js/easing.min.js"></script>
+	<script src="js/hoverIntent.js"></script>
+	<script src="js/superfish.min.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/jquery.tabs.min.js"></script>
+	<script src="js/jquery.nice-select.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/mail-script.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
