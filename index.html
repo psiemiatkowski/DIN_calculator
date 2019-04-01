@@ -51,34 +51,19 @@
 						<a href="#">
 							<span class="text"></span>
 						</a>
-						<!-- <a class="book-now" href="#">Book Now</a> -->
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="container main-menu">
 			<div class="row align-items-center justify-content-between d-flex">
-				<div id="logo">
-					<!-- <a href="index.html"><img src="img/logo.png" alt="" title="" /></a> -->
-				</div>
+				<div id="logo"></div>
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
 						<li><a class="active" href="index.html">Home</a></li>
 						<li><a href="about.html">O kalkulatorze</a></li>
 						<li><a href="informations.html">Informacje</a></li>
 						<li><a href="blog.html">Blog</a></li>
-							<!-- <ul>
-								<li><a href="blog-home.html">Blog Home</a></li>
-								<li><a href="blog-single.html">Blog Single</a></li>
-							</ul> -->
-						<!-- </li> -->
-						<!-- <li class="menu-has-children"><a href="">Pages</a> -->
-							<!-- <ul>
-								<li><a href="schedule.html">Schedule</a></li>
-								<li><a href="courses.html">Courses</a></li>
-								<li><a href="elements.html">Elements</a></li>
-							</ul> -->
-						<!-- </li> -->
 						<li><a href="contact.html">Kontakt</a></li>
 					</ul>
 				</nav><!-- #nav-menu-container -->
@@ -96,14 +81,14 @@
 					<img class="img-fluid" src="img/banner-img.png" alt="">
 				</div>
 				<div class="banner-content col-lg-6 col-md-6">
-					<h1 class="text-uppercase">
-						<span>Oblicz</span> siłę <br> wypięcia wiązań <br> narciarskich
+					<h1 class="text-uppercase" style="font-size:2.8vw;">
+						<span>Oblicz</span> siłę wypięcia wiązań narciarskich
 					</h1>
 					<form method="POST" action="https://tranquil-scrubland-93040.herokuapp.com/" id="skierForm">
 					<div class="col-lg-8">
 							<div class="input-group-icon mt-30">
 								<div class="icon"><i class="fas fa-weight"></i></div>
-								<div class="form-select" id="default-select3">
+								<div class="form-select" id="default-select1">
 									<select name="weightRange">
 										<option value="Waga">Waga</option>
 										<option value="FROM 10 TO 13">Od 10 do 13 kg</option>
@@ -124,7 +109,7 @@
 							</div>
 							<div class="input-group-icon mt-10">
 								<div class="icon"><i class="fas fa-walking"></i></div>
-								<div class="form-select" id="default-select4">
+								<div class="form-select" id="default-select2">
 									<select name="heightRange">
 										<option value="Wzrost">Wzrost</option>
 										<option value="UP TO 148">Poniżej 149 cm</option>
@@ -138,7 +123,7 @@
 							</div>
 							<div class="input-group-icon mt-10">
 								<div class="icon"><i class="fas fa-shoe-prints"></i></div>
-								<div class="form-select" id="default-select5">
+								<div class="form-select" id="default-select3">
 									<select name="shoeSizeRange">
 										<option value="Rozmiar">Rozmiar skorupy buta</option>
 										<option value="UP TO 230">Poniżej 231 mm</option>
@@ -154,7 +139,7 @@
 							</div>
 							<div class="input-group-icon mt-10">
 								<div class="icon"><i class="fas fa-calendar-alt"></i></div>
-								<div class="form-select" id="default-select2">
+								<div class="form-select" id="default-select4">
 									<select name="ageRange">
 										<option value="Wiek">Wiek</option>
 										<option value="YOUNGER THAN 10">Poniżej 10 lat</option>
@@ -165,7 +150,7 @@
 							</div>																						
 							<div class="input-group-icon mt-10">
 								<div class="icon"><i class="fas fa-skiing"></i></div>
-								<div class="form-select" id="default-select">
+								<div class="form-select" id="default-select5">
 									<select name="skillLevel">
 										<option value="Skill level">Poziom umiejętności</option>
 										<option value="BEGINNER">Początkujący</option>
@@ -175,7 +160,7 @@
 								</div>
 							</div>
 						</div>
-					<input class="primary-btn mt-40 ml-50" type="submit" onclick="location.href='#DINresult';" value="OBLICZ WARTOŚĆ DIN">
+						<input class="primary-btn mt-40 ml-50" type="submit" onclick="location.href='#DINresult';" value="OBLICZ WARTOŚĆ DIN">
 					</form>
 				</div>
 			</div>
@@ -199,18 +184,13 @@
 			</div>
 
 			<div class="row justify-content-between align-items-center">
-				<!-- <div class="col-lg-6 about-right"> -->
-					<div class="row">
-						<!-- <div class="col-lg-12"> -->
-							<div class="single-about">
-								<!-- <h4>WAŻNE!</h4> -->
-								<p class="text-justify">
-									<span style="color:red">PAMIĘTAJ:</span> Kalkulator służy jedynie do celów informacyjnych. Prawidłowe ustawienie siły wypięcia nart jest niezbędne dla Twojego bezpieczeństwa. Dokonuj regulowania wiązań narciarskich wyłącznie w wyspecjalizowanych serwisach. Wyliczone wartości mogą się różnić w zależności od stylu jazdy narciarza oraz w zależności od producenta sprzętu.
-									Obliczenia oparte są na normie ISO 11088 - Montaż, regulacja i kontrola układu: narta zjazdowa-wiązanie-but (N-W-B).
-								</p>
-								<img class="img-fluid mx-auto d-block" src="img/about-img.png" alt="">
-							</div>
-						</div>
+				<div class="row">
+					<div class="single-about">
+						<p class="text-justify">
+							<span style="color:red">PAMIĘTAJ:</span> Kalkulator służy jedynie do celów informacyjnych. Prawidłowe ustawienie siły wypięcia nart jest niezbędne dla Twojego bezpieczeństwa. Dokonuj regulowania wiązań narciarskich wyłącznie w wyspecjalizowanych serwisach. Wyliczone wartości mogą się różnić w zależności od stylu jazdy narciarza oraz w zależności od producenta sprzętu.
+							Obliczenia oparte są na normie ISO 11088 - Montaż, regulacja i kontrola układu: narta zjazdowa-wiązanie-but (N-W-B).
+						</p>
+						<img class="img-fluid mx-auto d-block" src="img/about-img.png" alt="">
 					</div>
 				</div>
 			</div>
